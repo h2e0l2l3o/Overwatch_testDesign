@@ -1,9 +1,15 @@
 # 오버워치 캐릭터 선택 페이지 디자인
 
+<img width="914" alt="image" src="https://github.com/user-attachments/assets/f4c454d0-a7e3-4bc2-9ef6-a3b5a496f110">
+
 ## HTML, CSS 사용.
 
 * display = flex를 이용해서 html에서 추가한 각각의 요소들을 수평으로 나열함.
 * 각각의 image 요소들에 준비된 이미지 url을 이용해서 오버워치 캐릭터들의 이미지를 넣어줌.
+  
+  <img width="950" alt="image" src="https://github.com/user-attachments/assets/4e321f19-baa7-4cca-b48a-70892f6c3cbb">
+
+  
 * image의 상위 요소인 hero에 마우스를 가져다 놓으면(hover) 배경 색과 모양(사이즈)가 변화할 수 있도록 함.
     + transform: skewX(-14deg) scale(1.3);
     + background color는 #555에서 #ff9c00으로 바뀜
